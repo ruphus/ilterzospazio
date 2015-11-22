@@ -1,0 +1,53 @@
+#sched-events .media {
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+#sched-events .media:hover {
+  background-color: #F7F7F7;
+  border-color: #EEE;
+}
+
+#sched-events .media-left {
+  display: block;
+  margin: 20px 0;
+}
+
+#sched-events .media-left .calendar {
+  padding: 2px 4px 0px;
+  border: 1px solid #EEE;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #BBB;
+}
+
+#sched-events .calendar-text {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#sched-events h5.media-heading {
+  text-align: left;
+  font-weight: bold;
+  padding: 2px 0 5px;
+  color: #555;
+  font-size: 17px;
+}
+
+@media (min-width: 768px) {
+  #sched-events .media {
+    padding: 20px;
+  }
+  
+  #sched-events .media-left {
+    display: table-cell;
+    margin: 0;
+  }
+  
+  #sched-events .media-left .calendar {
+    text-align: center;
+  }
+  
+  #sched-events .calendar-text {
+    font-size: 21px;
+  }    
+}

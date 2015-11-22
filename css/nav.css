@@ -1,0 +1,59 @@
+.navbar-default {
+  background-color: #555;
+  border-width: 3px 0 0;
+  border-color: #E99B05;
+  border-style: solid;
+  border-radius: initial;
+  margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #DDD;
+}
+
+.navbar-nav>li>a {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.nav>li>a {
+  padding: 10px 22px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFF;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.container-fluid>.navbar-header {
+  margin: inherit;
+}
+
+#cookies-popup {
+  display: none;
+  padding: 5px 20px;
+  background-color: #FFFFCC;
+}
+
+#cookies-popup > p {
+  float: left;
+  padding: 4px 20px 4px 0;
+}
+
+#cookies-popup > div{
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding: 0 15px;
+  }
+  
+  #cookies-popup {
+    padding: 5px 50px; 
+  }
+}

@@ -1,0 +1,33 @@
+footer {
+  background-color: #555;
+  color: #DDD;
+  padding: 10px 100px 5px;
+  text-align: center;
+  font-family: OpenSans, verdana, sans-serif;
+}
+
+#curtain {
+  display: none;
+  text-align: center;
+  font-size: 70px;
+  position: fixed;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  padding: 25%;
+  text-shadow: 0 0 20px #555;
+}
+
+#back-to-top {
+	position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #curtain {
+    top: 0;
+  }
+}

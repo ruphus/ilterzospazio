@@ -1,0 +1,127 @@
+.block .block-heading-text {
+  font-size: 30px;
+}
+
+.media-left, .media-right {
+  vertical-align: middle;
+}
+
+#is-media, #offers-media, #has-media {
+  margin: 0 auto;
+}
+
+#is-media > .media-body,
+#has-media > .media-body,
+#offers-media > .media-body {
+  padding: 10px 0;
+}
+
+#is-media > .media-left,
+#offers-media > .media-left,
+#has-media > .media-left,
+#has-media > .media-right {
+  border-radius: 8px;
+}
+
+#is-media, #offers-media, #has-media {
+  margin: 0 20px 40px;
+}
+
+#is-media > .media-left,
+#offers-media > .media-left,
+#has-media > .media-left {
+  display: block;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+#has-media > .media-right {
+  display: none;
+}
+
+#has-media > .media-body > .media > .media-right {
+  padding-left: 16px;
+  display: none;
+}
+
+#plan-img {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  #is-media, #offers-media, #has-media {
+    margin: 0 auto 80px;
+  }
+  
+  #is-media > .media-left,
+  #offers-media > .media-left,
+  #has-media > .media-right {
+    display: table-cell;
+    line-height: inherit;
+    width: inherit;
+  }
+  
+  #is-media > .media-body,
+  #has-media > .media-body,
+  #offers-media > .media-body {
+    padding: 10px 20px;
+  }
+
+  #is-media {
+    width: 750px;
+    margin-top: 30px; 
+  }
+  
+  #is-media > .media-left {
+    padding: 0 120px;
+    font-size: 90px;
+  }
+  
+  #has-media {
+    width: 650px;
+  }
+  
+  #has-media > .media-left,
+  #has-media > .media-body > .media > .media-left {
+    display: none;
+  }
+  
+  #has-media > .media-body > .media > .media-right {
+    display: table-cell;  
+  }
+  
+  #has-media > .media-right {
+    font-size: 70px;
+    padding: 0 40px; 
+  }
+  
+  #has-media > .media-body {
+    text-align: right;
+  }
+
+  #offers-media {  
+    width: 750px;
+  }
+  
+  #offers-media > .media-left {
+    font-size: 70px;
+    padding: 0px 30px;
+  }
+  
+  #plan-img {
+    width: 700px;
+  }   
+}
+
+@media (min-width: 992px) {
+  #is-media {
+    width: 900px;
+    margin-top: 50px; 
+  }
+  
+  #is-media > .media-left {
+    padding: 0 85px;
+  }   
+}
+  

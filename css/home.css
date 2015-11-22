@@ -1,0 +1,115 @@
+#home-photo {
+  background-image: url(../res/office_wide.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 300px;  
+  display: table;
+  width: 100%;
+}
+
+#home-photo p {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#four-blocks {
+  padding-top: 30px; 
+}
+
+#four-blocks .thumbnail {
+  border: none;
+  padding: 40px 5px 20px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+  width: 100%;
+}
+
+#four-blocks .thumbnail .fa {
+  font-size: 80px;
+  display: table-row;
+}
+
+#four-blocks .caption {
+  font-size: 17px;
+  display: table-cell;
+}
+
+#home-abstract {
+  padding: 20px;  
+}
+
+#home-abstract > .media-left {
+  vertical-align: middle;
+  display: block;
+}
+
+#home-abstract > .media-left > img{
+  width: 150px;  
+}
+
+#home-abstract > .media-body {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home-abstract .media-heading {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  #home-photo p {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  
+  #home-abstract {
+    padding: 40px;
+  }
+  
+  #home-abstract > .media-left {
+    display: table-cell;
+  }
+  
+  #home-abstract > .media-left > img{
+    width: 200px;  
+  }
+  
+  #home-abstract .media-heading,
+  #home-abstract > .media-body {
+    text-align: left;
+  }
+  
+  #four-blocks .thumbnail {
+    height: 260px;
+    padding-bottom: 0;
+  }
+  
+  #four-blocks .caption {
+    padding: 20px 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  #home-abstract {
+    padding: 0 100px; 
+  }
+  
+  #home-abstract > .media-left > img {
+    width: 300px;
+  }
+}
