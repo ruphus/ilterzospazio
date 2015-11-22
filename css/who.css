@@ -1,3 +1,12 @@
+#staff {
+  padding-bottom: 5px;
+}
+
+#staff .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .staff-profile {
   padding: 20px;
   border-radius: 8px;
@@ -8,6 +17,16 @@
 
 .staff-profile .media-heading {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+.staff-profile .media-left {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.staff-profile .media-body p {
+  text-align: justify;
 }
 
 .role {
@@ -26,4 +45,23 @@
 
 #mission .media-body {
   vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  #staff .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .staff-profile .media-left{
+    display: table-cell;
+  }
+  
+  .staff-profile .media-heading {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+
 }

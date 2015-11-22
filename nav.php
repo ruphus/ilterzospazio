@@ -22,25 +22,37 @@ $menu_items = array(
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index3.html">
-        <img alt="ilterzospazio" src="res/logo_lineare.png">
+      <a class="navbar-brand" href="index.php">
+        <img alt="ilterzospazio" src="images/logo_lineare.png">
       </a>
     </div>
+    
+    <ul class="nav navbar-nav" id="left-navbar">
+      <li>Tor Sapienza lab &amp; coworking</li>
+    </ul>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-menu">
       <ul class="nav navbar-nav navbar-right">
-      <? 
+      <?php
       foreach ($menu_items as $label => $url) { 
       ?><li
-        <?
-          if ( strcmp($_SERVER['REQUEST_URI'], $url) == 0 ){
-          ?>class="active"<?
-          }
+        <?php
+        if ( strcmp($_SERVER['REQUEST_URI'], $url) == 0 ){
+        ?>class="active"<?php
+        }
         ?>
         >
-          <a href="<?= $url ?>"><?= $label ?></a>
-        </li><?
+          <a href="<?= $url ?>">
+            <?= $label ?>
+            <?php
+            if ( strcmp($label, "eventi") == 0 ){
+            ?><!--<span class="badge bg-red fg-grey">1</span>--><?php
+            }
+            ?>
+            
+          </a>
+        </li><?php
       }
       ?>
       </ul>

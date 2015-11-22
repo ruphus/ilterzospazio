@@ -1,9 +1,19 @@
 footer {
   background-color: #555;
   color: #DDD;
-  padding: 10px 100px 5px;
-  text-align: center;
+  padding: 10px;
   font-family: OpenSans, verdana, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: 0;
+}
+
+footer .social {
+  padding-left: 10px;
+}
+
+footer p {
+  padding: 2px 0px;
 }
 
 #curtain {

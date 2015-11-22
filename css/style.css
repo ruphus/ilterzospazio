@@ -6,8 +6,14 @@
   src: url(../fonts/OpenSans-Regular.ttf);
 }
 
+html {
+  background-color: #EFEFEF;
+  padding: 4px 0;
+}
+
 body {
   font-family: verdana, sans-serif;
+  max-width: 1200px;
 }
 
 p {
@@ -22,7 +28,7 @@ input {
 }
 
 .bg-pattern {
-  background-image: url(../res/main_abstract_pattern.png);
+  background-image: url(../images/main_abstract_pattern.png);
   text-shadow: 1px 1px 1px white;
 }
 
@@ -79,7 +85,7 @@ input {
 }
 
 .mb-20px{
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 .btn.bg-orange:focus,
@@ -88,7 +94,9 @@ input {
 }
 
 .its {
-  
+    font-weight: bold;
+    color: #999;
+    text-shadow: 1px 1px 1px #DDD;
 }
 
 .row > [class^='col']{
@@ -99,6 +107,18 @@ input {
   text-align:center;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
 .media, .block, .thumbnail {
   font-family: OpenSans, verdana, sans-serif;
 }
@@ -107,30 +127,48 @@ input {
   margin-top: 10px;
 }
 
+.media-heading {
+    line-height: 22px;
+}
+
 .media-left {
-  min-width: 20px;
+  min-width: 40px;
   text-align: center;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
 }
 
 .block {
   min-height: 250px;
-  width: 100%;
-  display: table;
-  padding: 40px 0;
+  padding: 40px 20px;
+  margin: 0 15px;
+  border-radius: 8px;
+}
+
+.block.bg-grey {
+  border: 1px solid #EAEAEA;
 }
 
 .block.block-min {
   min-height: inherit;
-  padding-bottom: 20px;  
+  padding-bottom: 0px;  
 }
 
-.block .block-wrap {
+.block.table {
+  display: table;
+  width: 100%;
+}
+
+.block.table .block-wrap {
   display: table-cell;
   vertical-align: middle;
 }
 
 .block .block-heading {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .block .block-heading-icon {
@@ -143,7 +181,7 @@ input {
 }
 
 .block .padded {
-  margin: 0 5%;
+  margin: 0;
 }
 
 .block .block-body {
@@ -155,9 +193,25 @@ input {
   line-height: 25px;
 }
 
+#page-content {
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #DDD;
+  padding: 15px 0;
+}
+
+.calendar-text {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 8px;
+  line-height: 32px;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: 14px;
+    margin: 0 auto;
   }
   
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -166,15 +220,22 @@ input {
   
   .media-left {
     min-width: 44px;
+    padding-right: 10px;
+  }
+  
+  .block .padded {
+    margin: 0 5%;
+  }
+  
+  .calendar-text {
+    font-size: 18px;
+    margin-left: 0px;
+    float: none;
   }
 }
 
 @media (min-width: 992px) {
   .block .padded {
-    margin: 0 20%;
+    margin: 0 10%;
   } 
-}
-
-@media (min-width: 992px) {
-  
 }

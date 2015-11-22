@@ -1,9 +1,12 @@
-<footer class="clear">
-  <a href="https://www.facebook.com/ilterzospazio" target="_new">
+<footer class="clearfix">
+  <a class="social" href="https://www.facebook.com/ilterzospazio" target="_new">
     <i class="fa fa-facebook-square fa-2x fg-orange"></i>
   </a>
-  <a href="https://twitter.com/ilterzospazio" target="_new">
+  <a class="social" href="https://twitter.com/ilterzospazio" target="_new">
     <i class="fa fa-twitter-square fa-2x fg-orange"></i>
+  </a>
+  <a class="social" href="https://www.linkedin.com/company/ilterzospazio" target="_new">
+    <i class="fa fa-linkedin-square fa-2x fg-orange"></i>
   </a>
   <p>&copy; 2015 ilterzospazio</p>
 </footer>
@@ -17,7 +20,7 @@
 <script type="text/javascript">
 
 //CURTAIN
-  var cogColors = ['fg-cyan', 'fg-red', 'fg-green', 'fg-orange'];
+var cogColors = ['fg-cyan', 'fg-red', 'fg-green', 'fg-orange'];
 
 function showCurtain(){
   var randomColor = cogColors[ Math.floor((Math.random() * cogColors.length)) ];

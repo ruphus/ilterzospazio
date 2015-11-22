@@ -1,3 +1,13 @@
+#sched-events .media-body .link {
+  text-decoration: underline; 
+}
+
+#sched-events .media-body .section-title{
+    font-weight: bold;
+    font-size: 15px;
+    color: #666;
+}
+
 #sched-events .media {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -11,43 +21,62 @@
 #sched-events .media-left {
   display: block;
   margin: 20px 0;
+  min-width: 100px;
+  padding-right: 4px;
 }
 
-#sched-events .media-left .calendar {
+#sched-events .calendar {
   padding: 2px 4px 0px;
   border: 1px solid #EEE;
   border-radius: 6px;
   box-shadow: 2px 2px 4px #BBB;
 }
 
-#sched-events .calendar-text {
-  font-size: 42px;
-  font-weight: bold;
+#sched-events .media-body {
+  text-align: justify;
+}
+
+#sched-events .calendar-text .fa {
+  font-size: 30px;
 }
 
 #sched-events h5.media-heading {
   text-align: left;
   font-weight: bold;
-  padding: 2px 0 5px;
+  padding-bottom: 15px;
   color: #555;
-  font-size: 17px;
+  font-size: 19px;
+}
+
+#next {
+  margin-left: 0;
+}
+
+#next .media-body {
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
+  
+  #next {
+    margin-left: 15px;
+  }
+  
   #sched-events .media {
     padding: 20px;
   }
   
   #sched-events .media-left {
     display: table-cell;
-    margin: 0;
   }
   
-  #sched-events .media-left .calendar {
-    text-align: center;
+  #sched-events .calendar {
+    width: 120px;
+    padding: 10px 0;
   }
   
-  #sched-events .calendar-text {
-    font-size: 21px;
-  }    
+  #sched-events .media-body {
+    padding-left: 20px;
+  }
+  
 }

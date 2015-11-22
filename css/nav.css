@@ -1,10 +1,7 @@
 .navbar-default {
   background-color: #555;
-  border-width: 3px 0 0;
-  border-color: #E99B05;
-  border-style: solid;
-  border-radius: initial;
-  margin: 0;
+  margin-bottom: 0;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -33,6 +30,17 @@
   margin: inherit;
 }
 
+#left-navbar {
+  margin: 0 0 5px;
+}
+
+#left-navbar li {
+  color: #FFF;
+  font-family: Courier new;
+  font-size: 19px;
+  text-align: center;
+}
+
 #cookies-popup {
   display: none;
   padding: 5px 20px;
@@ -51,6 +59,16 @@
 @media (min-width: 768px) {
   .navbar-brand {
     padding: 0 15px;
+  }
+  
+  #left-navbar {
+    margin-bottom: 0;
+  }
+  
+  #left-navbar li {
+    line-height: 50px;
+    font-size: 17px;
+    text-align: left;
   }
   
   #cookies-popup {

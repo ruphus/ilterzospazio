@@ -1,9 +1,13 @@
-.block .block-heading-text {
-  font-size: 30px;
-}
-
 .media-left, .media-right {
   vertical-align: middle;
+}
+
+#has-media .fa-breast-feeding {
+  background-image: url('../images/breast_feeding.png');
+  width: 1em;
+  height: 1em;
+  background-size: 1.2em;
+  background-position: center;
 }
 
 #is-media, #offers-media, #has-media {
@@ -93,7 +97,7 @@
   
   #has-media > .media-right {
     font-size: 70px;
-    padding: 0 40px; 
+    padding: 0 60px; 
   }
   
   #has-media > .media-body {
@@ -117,11 +121,10 @@
 @media (min-width: 992px) {
   #is-media {
     width: 900px;
-    margin-top: 50px; 
   }
   
   #is-media > .media-left {
-    padding: 0 85px;
+    padding: 0 95px;
   }   
 }
   
