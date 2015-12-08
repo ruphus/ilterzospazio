@@ -23,6 +23,12 @@
       ]
     }
     </script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".event .more-info").attr("href", "eventi.php");
+    });
+    </script>
   </head>
   <body>
     
@@ -131,35 +137,9 @@
         </div>
       </div>
       
-      <!--
-      <div class="media event-preview">
-        <div class="media-left">
-          <div class="calendar bg-white fg-orange clearfix" title="sabato 8 e domenica 9 novembre 2015, ore 15">
-            <div class="calendar-text"><i class="fa fa-clock-o"></i></div>
-            <div class="calendar-text">7, 8, 14 nov.</div>
-            <div class="calendar-text">15.00 - 17.30</div>
-          </div>
-        </div>
-        <div class="media-body">
-          <a href="http://www.officinerobotiche.it" target="_new" title="Sito di Officine Robotiche">
-            <img src="images/ORlogo.png" width="100" class="mb-20px">
-          </a>
-          <h5 class="media-heading">
-            Workshop: La Robotica Amatoriale come non l'avete mai vista
-          </h5>
-          <p class="mb-20px">
-            Il 7, con replica l'8 e il 14 Novembre, inauguriamo la stagione dei corsi con il primo appuntamento 
-            di <b>Impara Con Officine Robotiche</b> dedicato a tutti gli appassionati di robotica ed automazione;
-            <a href="http://www.officinerobotiche.it" target="_new" title="Sito di Officine Robotiche" class="link fg-orange">
-              Officine Robotiche</a>
-            presenter&agrave; il programma di corsi e laboratori previsti per quest'anno presso <?=$its?>.
-          </p>
-            
-          <p><a href="eventi.php" class="btn fg-white bg-orange" role="button">Pi&ugrave; info</a></p>
-          
-        </div>
-      </div>
-      -->
+      <?php include('eventi/20151218_OR.php'); ?>
+      
+      <?php include('eventi/open.php'); ?>
       
       <div id="home-abstract" class="media bg-pattern">
         <div class="media-left"><img src="images/logo_wm.png" /></div>

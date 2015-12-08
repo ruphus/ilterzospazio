@@ -8,44 +8,44 @@
     color: #666;
 }
 
-#sched-events .media {
+#sched-events .event img {
+  border-radius: 6px;
+}
+
+#sched-events .event a:hover {
+  color: #888888;
+}
+
+#sched-events .event {
   border-radius: 8px;
   border: 1px solid transparent;
 }
 
-#sched-events .media:hover {
+#sched-events .event:hover {
   background-color: #F7F7F7;
   border-color: #EEE;
 }
 
-#sched-events .media-left {
+#sched-events .event .media-left {
   display: block;
   margin: 20px 0;
   min-width: 100px;
   padding-right: 4px;
 }
 
-#sched-events .calendar {
+#sched-events .event .calendar {
   padding: 2px 4px 0px;
   border: 1px solid #EEE;
   border-radius: 6px;
   box-shadow: 2px 2px 4px #BBB;
 }
 
-#sched-events .media-body {
+#sched-events .event .media-body {
   text-align: justify;
 }
 
-#sched-events .calendar-text .fa {
+#sched-events .event .calendar-text .fa {
   font-size: 30px;
-}
-
-#sched-events h5.media-heading {
-  text-align: left;
-  font-weight: bold;
-  padding-bottom: 15px;
-  color: #555;
-  font-size: 19px;
 }
 
 #next {
@@ -62,20 +62,20 @@
     margin-left: 15px;
   }
   
-  #sched-events .media {
+  #sched-events .event {
     padding: 20px;
   }
   
-  #sched-events .media-left {
+  #sched-events .event .media-left {
     display: table-cell;
   }
   
-  #sched-events .calendar {
+  #sched-events .event .calendar {
     width: 120px;
     padding: 10px 0;
   }
   
-  #sched-events .media-body {
+  #sched-events .event .media-body {
     padding-left: 20px;
   }
   

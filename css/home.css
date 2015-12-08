@@ -80,7 +80,7 @@
   text-align: center;
 }
 
-.event-preview {
+.event {
   border: 3px solid #E99B05;
   border-radius: 8px;
   padding: 20px;
@@ -88,11 +88,15 @@
   box-shadow: 2px 2px 13px #888;
 }
 
-.event-preview .media-heading {
+.event img {
+  display: none;
+}
+
+.event .media-heading {
   font-weight: bold;
 }
 
-.event-preview .media-left {
+.event .media-left {
   min-width: 160px;
   font-size: 20px;
   vertical-align: top;
@@ -134,16 +138,16 @@
     padding: 20px 5px;
   }
   
-  .event-preview {
+  .event {
     padding: 20px 60px;
   }
 
-  .event-preview .media-left {
+  .event .media-left {
     display: table-cell;
     margin-bottom: 0;
   }
    
-  .event-preview .calendar .fa {
+  .event .calendar .fa {
     font-size: 30px;
   }
 }
@@ -157,7 +161,7 @@
     width: 300px;
   }
   
-  .event-preview {
+  .event {
     padding: 20px 100px;
   }
   
