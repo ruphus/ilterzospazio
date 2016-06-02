@@ -25,6 +25,11 @@
   border: 1px solid transparent;
 }
 
+#sched-events .event.permanent {
+    background-color: #FDFBF1;
+    border: 1px solid #ECDD9C;
+}
+
 #sched-events .event:hover {
   background-color: #F7F7F7;
   border-color: #EEE;
@@ -42,6 +47,13 @@
   border: 1px solid #EEE;
   border-radius: 6px;
   box-shadow: 2px 2px 4px #BBB;
+  color: #E99B05;
+}
+
+#sched-events .event.permanent .calendar {
+    border: none;
+    box-shadow: none;
+    background: transparent;
 }
 
 #sched-events .event .media-body {

@@ -87,7 +87,11 @@
   box-shadow: 2px 2px 13px #888;
 }
 
-.event img {
+.event.permanent {
+    border-color: #CCCCCC;
+}
+
+.event .media-body img {
   display: none;
 }
 
@@ -174,7 +178,7 @@
   }
   
   .event {
-    padding: 20px 0px;
+    padding: 20px 0 0;
   }
   
 }

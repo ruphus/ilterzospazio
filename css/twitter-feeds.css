@@ -2,23 +2,24 @@
   border: 3px solid #55ACEE;
   border-radius: 6px;
   box-shadow: 2px 2px 13px #888;
-  padding: 15px;
   margin-bottom: 20px;
   font-family: OpenSans;
-  height: 404px;
+  height: 340px;
 }
 
 #twitter-feeds h5 {
-  color: #55ACEE;
-  font-size: 19px;
-  margin-top: 0;
-  text-shadow: 1px 1px 1px #DDD;
+    color: white;
+    font-size: 36px;
+    margin: 0;
+    background-color: #55ACEE;
+    padding: 4px;
+    text-align: center;
 }
 
 #twitter-feeds > ul {
-  padding: 0 8px 0 0;
+  padding: 15px;
   overflow-y: auto;
-  height: 89%;
+  height: 85%;
 }
 
 #twitter-feeds > ul > li {

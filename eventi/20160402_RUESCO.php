@@ -32,7 +32,7 @@
                 <div class="section-title">Chi</div>
                 <div class="media">
                     <div class="media-left">
-                        <img src="images/logoRUESCO.png" height="120">
+                        <img src="images/logo_ruesco.svg" height="120">
                     </div>
                     <div class="media-body">
                         Il corso &egrave; tenuto da <a href="http://www.ruesco.it" target="_new">La Ruesco</a>, partner de

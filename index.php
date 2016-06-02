@@ -169,13 +169,13 @@
           <div class="row">
             
             <div class="col-xs-12 col-md-8 container-fluid">
-                <div><?php include('eventi/20160402_RUESCO.php')?></div>
+                <div><?php include('eventi/prode.php')?></div>
                 <div><?php include('eventi/open.php'); ?></div>
             </div>
             
             <div class="col-xs-12 col-md-4">
               <div id="twitter-feeds" class="clearfix">
-                <h5>su Twitter...</h5>
+                <h5><i class="fa fa-twitter"></i></h5>
               </div>
             </div>
             
@@ -208,7 +208,7 @@
         <div id="partners" class="block">
             <div class="block-wrap">
                 <div class="block-heading">
-                    <h4 class="block-heading-text">partner di</h4>
+                    <h4 class="block-heading-text">i nostri partner</h4>
                 </div>
                 <div class="block-body container-fluid">
                     <div class="row">

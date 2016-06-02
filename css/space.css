@@ -55,9 +55,9 @@
 
 .pricing-package table {
     width: 100%;
-    height: 103px;
+    height: 101px;
     border-collapse: separate;
-    border-spacing: 0 2px;
+    border: none;
 }
 
 .pricing-package th,
@@ -72,7 +72,8 @@
 }
 
 .pricing-package th {
-    border-bottom: 1px solid #EEE;
+    border-width: 0 0 1px 0;
+    border-color: #EEE;
     width: 70%;
 }
 
@@ -81,6 +82,7 @@
     font-size: 16px;
     text-align: right;
     padding-right: 8px;
+    border: none;
 }
 
 .fa-breast-feeding {

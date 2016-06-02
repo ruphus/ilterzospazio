@@ -128,9 +128,11 @@
           </div>
           <div class="block-body padded">
             
-            <?php include('eventi/20160402_RUESCO.php')?>
+            <?php include('eventi/prode.php'); ?>
 
             <?php include('eventi/open.php'); ?>
+
+            <?php include('eventi/20160402_RUESCO.php')?>
 
             <?php include('eventi/20160227_OR.php')?>
 

@@ -115,6 +115,11 @@
                 </div>
 
                 <div id="pricing" class="block-body container-fluid">
+
+                    <p class="mb-20px big-text bg-red fg-white">
+                        <b>IN PROMOZIONE FINO AD AGOSTO 2016!</b>
+                    </p>
+
                     <div class="row">
 
                         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -277,7 +282,6 @@
                     <li>&frac12; giornata: 14.30 - 18.30</li>
                     <li>Tutti i servizi sono comprensivi di connessione wi-fi, stampante/fotocopiatrice/scanner.</li>
                     <li>L'affitto della sala eventi e corsi include l'utilizzo del videoproiettore.</li>
-                    
                 </ul>
             </div>
 
