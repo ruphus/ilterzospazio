@@ -2,10 +2,9 @@
   background-image: url(../images/office_wide.jpg);
   background-position: top center;
   background-size: cover;
-  height: 300px;  
+  height: 300px;
   display: table;
   width: 100%;
-  margin-top: 4px;
 }
 
 #home-photo p {
@@ -83,8 +82,8 @@
 .event {
   border: 3px solid #E99B05;
   border-radius: 8px;
-  padding: 20px;
-  margin: 0 15px 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
   box-shadow: 2px 2px 13px #888;
 }
 
@@ -103,6 +102,19 @@
   display: block;
   padding: 0;
   margin-bottom: 20px;
+}
+
+.event .calendar-text {
+  margin-right: 8px;
+}
+
+#partners .logo-container img {
+    width: 200px;
+}
+
+#partners .logo-container {
+    line-height: 200px;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -139,7 +151,7 @@
   }
   
   .event {
-    padding: 20px 60px;
+    padding: 20px;
   }
 
   .event .media-left {
@@ -162,7 +174,7 @@
   }
   
   .event {
-    padding: 20px 100px;
+    padding: 20px 0px;
   }
   
 }

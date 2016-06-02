@@ -310,8 +310,7 @@
           </div>
           <div class="block-body padded">
             <p><a href="mailto:info@ilterzospazio.org" class="fg-green">info@ilterzospazio.org</a></p>
-            <p>Carlo (nuove tecnologie): +39 328 32 23 266</p>
-            <p>Virginia (eventi e comunicazione): +39 333 63 12 483</p>
+            <p>+39 328 32 23 266</p>
           </div>
         </div>
       </div>

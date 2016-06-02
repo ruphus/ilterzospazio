@@ -1,130 +1,109 @@
-.media-left, .media-right {
+.media-left, .media-right, .media-body {
   vertical-align: middle;
 }
 
-#has-media .fa-breast-feeding {
-  background-image: url('../images/breast_feeding.png');
-  width: 1em;
-  height: 1em;
-  background-size: 1.2em;
-  background-position: center;
+#pricing .row {
+    height: 100%;
 }
 
-#is-media, #offers-media, #has-media {
-  margin: 0 auto;
+#pricing .row > div {
+    margin-bottom: 2em;
 }
 
-#is-media > .media-body,
-#has-media > .media-body,
-#offers-media > .media-body {
-  padding: 10px 0;
+.pricing-package {
+    height: 266px;
+    box-shadow: 0px 0px 16px #888;
+    border-radius: 6px;
+    padding: 5px;
 }
 
-#is-media > .media-left,
-#offers-media > .media-left,
-#has-media > .media-left,
-#has-media > .media-right {
-  border-radius: 8px;
+.pricing-package h5 {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    line-height: 80px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
 }
 
-#is-media, #offers-media, #has-media {
-  margin: 0 20px 40px;
+.pricing-package h5.double-heading {
+    line-height: 30px;
+    padding: 10px 0;
 }
 
-#is-media > .media-left,
-#offers-media > .media-left,
-#has-media > .media-left {
-  display: block;
-  line-height: 50px;
-  vertical-align: middle;
-  font-size: 30px;
+.pricing-package-desc {
+    font-size: 14px;
+    margin: 4px 0;
+    border-radius: 6px;
+    background-color: #EEE;
+    border: 1px solid #DDD;
 }
 
-#has-media > .media-right {
-  display: none;
+.pricing-package-desc .media-left {
+    padding: 10px;
 }
 
-#has-media > .media-body > .media > .media-right {
-  padding-left: 16px;
-  display: none;
+.pricing-package-desc .media-body {
+    height: 64px;
+    padding-right: 10px;
+}
+
+.pricing-package-desc .media-body.heavy-desc {
+    font-size: 90%;
+}
+
+.pricing-package table {
+    width: 100%;
+    height: 103px;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+}
+
+.pricing-package th,
+.pricing-package td {
+    padding: 4px;
+    text-align: center;
+}
+
+.pricing-package tr:last-child th,
+.pricing-package tr:last-child td {
+    border-color: transparent;
+}
+
+.pricing-package th {
+    border-bottom: 1px solid #EEE;
+    width: 70%;
+}
+
+.pricing-package td {
+    background: #F5F5E9;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.fa-breast-feeding {
+    background-image: url('../images/breast_feeding_blue.png');
+    width: 1em;
+    height: 1em;
+    background-size: 1.2em;
+    background-position: center;
 }
 
 #plan-img {
-  width: 90%;
+    width: 90%;
+    border: 1px solid #BBB;
 }
 
 @media (min-width: 768px) {
-  #is-media, #offers-media, #has-media {
-    margin: 0 auto 80px;
-  }
-  
-  #is-media > .media-left,
-  #offers-media > .media-left,
-  #has-media > .media-right {
-    display: table-cell;
-    line-height: inherit;
-    width: inherit;
-  }
-  
-  #is-media > .media-body,
-  #has-media > .media-body,
-  #offers-media > .media-body {
-    padding: 10px 20px;
-  }
 
-  #is-media {
-    width: 750px;
-    margin-top: 30px; 
-  }
-  
-  #is-media > .media-left {
-    padding: 0 120px;
-    font-size: 90px;
-  }
-  
-  #has-media {
-    width: 650px;
-  }
-  
-  #has-media > .media-left,
-  #has-media > .media-body > .media > .media-left {
-    display: none;
-  }
-  
-  #has-media > .media-body > .media > .media-right {
-    display: table-cell;  
-  }
-  
-  #has-media > .media-right {
-    font-size: 70px;
-    padding: 0 60px; 
-  }
-  
-  #has-media > .media-body {
-    text-align: right;
-  }
-
-  #offers-media {  
-    width: 750px;
-  }
-  
-  #offers-media > .media-left {
-    font-size: 70px;
-    padding: 0px 30px;
-  }
-  
-  #plan-img {
-    width: 700px;
-  }   
+    #plan-img {
+        width: 700px;
+    }
 }
 
 @media (min-width: 992px) {
-  #is-media {
-    width: 900px;
-  }
-  
-  #is-media > .media-left {
-    padding: 0 95px;
-  }   
+
 }
   

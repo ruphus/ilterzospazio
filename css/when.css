@@ -1,3 +1,7 @@
+#sched-events {
+    margin: 0;
+}
+
 #sched-events .media-body .link {
   text-decoration: underline; 
 }
@@ -49,7 +53,7 @@
 }
 
 #next {
-  margin-left: 0;
+  margin-left: 15px;
 }
 
 #next .media-body {
@@ -57,15 +61,10 @@
 }
 
 @media (min-width: 768px) {
-  
-  #next {
-    margin-left: 15px;
-  }
-  
-  #sched-events .event {
-    padding: 20px;
-  }
-  
+    #sched-events .event {
+        padding: 20px;
+    }
+
   #sched-events .event .media-left {
     display: table-cell;
   }

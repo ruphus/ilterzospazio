@@ -9,6 +9,11 @@ ini_set('display_startup_errors', TRUE);
 
 <?php include('_getBrowser.php'); ?>
     
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Wed, 04 Mar 1981 21:45:00 CET" />
+<meta http-equiv="pragma" content="no-cache" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

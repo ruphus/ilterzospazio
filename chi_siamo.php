@@ -145,7 +145,8 @@
             </div>
             
             <div class="row">
-              
+              <div class="col-md-1"></div>
+
               <div class="col-md-5">
                 <div class="media staff-profile">
                   <div class="media-left">
@@ -169,6 +170,7 @@
               </div>
               
               <div class="col-md-6">
+                <!--
                 <div class="media staff-profile">
                   <div class="media-left">
                     <img class="img-circle" src="images/chiara.jpg" width="70" height="70">
@@ -186,7 +188,7 @@
                     </p>
                   </div>
                 </div>
-                  
+                -->
               </div>
               
               <div class="col-md-1"></div>
@@ -196,6 +198,7 @@
               <div class="col-md-3"></div>
               
               <div class="col-md-5">
+                <!--
                 <div class="media staff-profile">
                   <div class="media-left">
                     <img class="img-circle" src="images/nancy.jpg" width="70" height="70">  
@@ -212,7 +215,8 @@
                       scientifica in generale.
                     </p>
                   </div>
-                </div>    
+                </div>
+                -->
               </div>
               
               <div class="col-md-4"></div>

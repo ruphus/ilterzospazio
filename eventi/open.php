@@ -1,9 +1,9 @@
 <div class="media event">
 	<div class="media-left">
-	<div class="calendar bg-white fg-orange clearfix" title="tutti i martedì, giovedì e venerdì, ore 10:00-18:00">
+	<div class="calendar bg-white fg-orange clearfix" title="dal lunedì al venerdì, ore 15:00-19:00">
 		<div class="calendar-text"><i class="fa fa-clock-o"></i></div>
-		<div class="calendar-text">mar. gio. ven.</div>
-		<div class="calendar-text">10.00 - 18.00</div>
+		<div class="calendar-text">lun - ven</div>
+		<div class="calendar-text">15.00 - 19.00</div>
 	</div>
 	</div>
 	<div class="media-body">
@@ -17,7 +17,7 @@
 		</p>
 		<div class="hidden event-info">
 			<p class="mb-20px">
-				Per tre giorni a settimana, si aprono le porte ad amici e curiosi per incontrarci e conoscerci. Officine Robotiche Open Days &egrave; tutti i Marted&igrave;, Gioved&igrave; e Venerd&igrave; dalle 10 alle 18, presso <?=$its?>.
+				Per tre giorni a settimana, si aprono le porte ad amici e curiosi per incontrarci e conoscerci. Officine Robotiche Open Days &egrave; dal Luned&igrave; al Venerd&igrave; dalle 15 alle 19, presso <?=$its?>.
 			</p>
 			<p class="mb-20px">
 				Per fare visita in giorni diversi dall'Open Days, suggeriamo di prendere appuntamento scrivendo all’indirizzo <a href="mailto:info@officinerobotiche.it" class="fg-orange">info@officinerobotiche.it</a>
