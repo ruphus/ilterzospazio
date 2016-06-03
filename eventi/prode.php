@@ -89,51 +89,9 @@
                 inserire all'interno del progetto quindi dipendono dai costi di progetto.
             </p>
 
-            <p class="mb-20px">
-                Oltre allo Sportello sono comunque previsti dei corsi periodici sulle seguenti tematiche:
-            </p>
-
-            <table class="mb-20px">
-                <caption class="section-title">
-                    Corso di formazione per la progettazione per freelance, professionisti, associazioni, startupper
-                </caption>
-                <tr>
-                    <th class="center">Unit&agrave; didattiche</th>
-                    <th class="center">Durata</th>
-                    <th>Contenuti</th>
-                </tr>
-                <tr>
-                    <td><b>Reti, Partnership e contesti</b></td>
-                    <td class="center">4 ore</td>
-                    <td>
-                        Introduzione e framework di riferimento.<br>
-                        Ricerca bandi.<br>
-                        Ricerca partnership.<br>
-                        Come si costruisce una Partnership.<br>
-                        Elementi di Analisi bandi e regole di rendicontazione come supporto alla progettazione.
-                    </td>
-                </tr>
-                <tr>
-                    <td><b>Progettazione</b></td>
-                    <td class="center">6 ore</td>
-                    <td>
-                        Tecniche di progettazione (elementi di PCM - Project Cycle Management) - 4 ore.<br>
-                        Budget (2 ore).<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td><b>Project Work</b></td>
-                    <td class="center">5 ore</td>
-                    <td>
-                        Laboratorio di sperimentazione diretta delle conoscenze e competenze per la realizzazione di un
-                        progetto da presentare su bando (possibilmente attivo).
-                    </td>
-                </tr>
-            </table>
-
-            <p class="mb-20px">
-                Per accedere allo sportello Pro.De. è sufficiente contattare <?php echo $its; ?> attraverso il telefono
-                o la e-mail.
+            <p>
+                Per accedere allo sportello Pro.De. &egrave; sufficiente contattare <?php echo $its; ?> attraverso il
+                telefono o la e-mail.
             </p>
 		</div>
 	</div>

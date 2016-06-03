@@ -130,6 +130,8 @@
             
             <?php include('eventi/prode.php'); ?>
 
+            <?php include('eventi/corso_progettazione.php')?>
+
             <?php include('eventi/open.php'); ?>
 
             <?php include('eventi/20160402_RUESCO.php')?>

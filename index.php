@@ -170,6 +170,7 @@
             
             <div class="col-xs-12 col-md-8 container-fluid">
                 <div><?php include('eventi/prode.php')?></div>
+                <div><?php include('eventi/corso_progettazione.php')?></div>
                 <div><?php include('eventi/open.php'); ?></div>
             </div>
             
