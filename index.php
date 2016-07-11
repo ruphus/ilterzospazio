@@ -208,26 +208,44 @@
       
         <div id="partners" class="block">
             <div class="block-wrap">
-                <div class="block-heading">
-                    <h4 class="block-heading-text">i nostri partner</h4>
-                </div>
                 <div class="block-body container-fluid">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="col-md-6 center container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="block-heading-text">i nostri partner</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="logo-container col-md-6">
+                                    <a href="http://www.officinerobotiche.it/" target="_new">
+                                        <img src="images/ORlogo.png">
+                                    </a>
+                                </div>
+                                <div class="logo-container col-md-6">
+                                    <a href="http://www.ruesco.it/" target="_new">
+                                        <img src="images/logo_ruesco.svg">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="logo-container col-xs-12 col-sm-6 col-md-3">
-                            <a href="http://www.officinerobotiche.it/" target="_new">
-                                <img src="images/ORlogo.png">
-                            </a>
-                        </div>
-                        <div class="logo-container col-xs-12 col-sm-6 col-md-3">
-                            <a href="http://www.ruesco.it/" target="_new">
-                                <img src="images/logo_ruesco.svg">
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
+
+                        <div class="col-md-6 container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="block-heading-text center">la nostra rete</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="logo-container col-md-12">
+                                    <a href="http://coreteroma.org/" target="_new">
+                                        <img src="images/logo_corete.png" style="width:130px !important;">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
